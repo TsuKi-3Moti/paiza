@@ -1,0 +1,24 @@
+入力
+    一行目　クラスの人数N
+    二行目からN行目まで　半角スペース区切りで、名前、年齢、誕生日、出身地
+
+出力
+    一人分のデータ形式
+    User{
+    nickname : 名前
+    old : 年齢
+    birth : 誕生日
+    state : 出身地
+    }
+
+入力例1
+    1
+    koko 23 04/10 tokyo
+
+出力例1
+    User{
+    nickname : koko
+    old : 23
+    birth : 04/10
+    state : tokyo
+    }
