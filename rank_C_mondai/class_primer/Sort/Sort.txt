@@ -1,0 +1,25 @@
+３．構造体の整列
+
+入力
+    一行目　クラスの人数N
+    二行目からN行目まで　半角スペース区切りで、名前、年齢、誕生日、出身地
+
+出力
+    年齢が昇順になるように整列させ、入力と同様の形式で出力
+
+入力例1
+    3
+    mako 13 08/08 nara
+    taisei 16 12/04 nagano
+    megumi 14 11/02 saitama
+
+出力例1
+    mako 13 08/08 nara
+    megumi 14 11/02 saitama
+    taisei 16 12/04 nagano
+
+感想
+    ラムダ式を使うとArrays.sort()を便利に使用可能
+    (a,b)->a-b　なら昇順、(a,b)->b-aなら降順
+
+    Arraysクラスは java.util.Arraysなので、java.util.*に含まれる
